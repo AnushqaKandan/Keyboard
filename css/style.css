@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 *,
 *::before
 *::after{
@@ -28,8 +29,8 @@ body{
 }
 button {
     color:white;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border:none;
     background: rgb(0, 13, 255);
     box-shadow: 5px 5px 10px white, -5px -5px 10px rgb(100, 188, 217);
@@ -59,19 +60,16 @@ button:active{
     border-radius: 10px;
 }
 .enter{
-    width:135px;
+    width:80px;
     border-radius: 10px;
 }
 .shift{
     width:150px;
     border-radius: 10px;
 }
-.other{
-    width:82px;
-    border-radius: 10px;
-}
+
 .space{
-    width:400px;
+    width:390px;
     border-radius: 10px;
 }
 .Delete{
@@ -82,8 +80,30 @@ button:active{
     width:75px;
     border-radius: 10px;
 }
+.pause-play{
+    width:100px
+}
 
+#play-pause{
+    height:43px;
+    position:relative;
+    top: -9px;
 
+}
+#up{
+    height:20px;
+    position:relative;
+    top: -9px;
+}
+#down{
+    margin-left: 690px;
+    height:20px;
+    position:relative;
+    top: -17px;
+}
+.rowfive{
+    margin-right: 135px;
+}
 
 
 
